@@ -9,8 +9,8 @@ const basketball_team: {
 
 // Generic, not best practice
 const animal: object = {
-    name: "lion",
-    habitat: "jungle"
+    name: "Lion",
+    habitat: "Jungle"
 };
 
 // Better Practice
@@ -19,4 +19,7 @@ const person = {
     age: 31
 };
 
-console.log(person)
+console.log(basketball_team);
+console.log(animal);
+console.log(person);
+
