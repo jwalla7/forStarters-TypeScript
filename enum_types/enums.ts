@@ -12,7 +12,6 @@ class WushuStudent {
     }
 }
 
-
 enum Role {
     WHITE_BELT,
     YELLOW_BELT,
