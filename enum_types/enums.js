@@ -20,7 +20,10 @@ var Role;
     Role[Role["RED_BELT"] = 8] = "RED_BELT";
     Role[Role["BLACK_BELT"] = 9] = "BLACK_BELT";
 })(Role || (Role = {}));
-var TexasRanger = new WushuStudent("Jet Li", 59, "Beijing", Role.BLACK_BELT);
+var JetLi = new WushuStudent("Jet Li", 59, "Beijing", Role.BLACK_BELT);
+var JasonStatham = new WushuStudent("Jason Statham", 55, "United Kingdom", Role.PURPLE_BELT);
+var KeanuReeves = new WushuStudent("Keanu Reeves", 57, "Beirut", Role.WHITE_BELT);
+var WeslySnipes = new WushuStudent("Wesley Snipes", 60, "Florida", Role.BLACK_BELT);
 function wushuExpertise(student) {
     switch (student.role) {
         case Role.BLACK_BELT:
@@ -59,4 +62,7 @@ function wushuExpertise(student) {
     }
 }
 console.log("wushu ---");
-wushuExpertise(TexasRanger);
+wushuExpertise(JetLi);
+wushuExpertise(JasonStatham);
+wushuExpertise(KeanuReeves);
+wushuExpertise(WeslySnipes);
