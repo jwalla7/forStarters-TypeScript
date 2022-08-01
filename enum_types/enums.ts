@@ -26,7 +26,10 @@ enum Role {
     BLACK_BELT
 }
 
-const TexasRanger = new WushuStudent("Jet Li", 59, "Beijing", Role.BLACK_BELT);
+const JetLi = new WushuStudent("Jet Li", 59, "Beijing", Role.BLACK_BELT);
+const JasonStatham = new WushuStudent("Jason Statham", 55, "United Kingdom", Role.PURPLE_BELT);
+const KeanuReeves = new WushuStudent("Keanu Reeves", 57, "Beirut", Role.WHITE_BELT);
+const WeslySnipes = new WushuStudent("Wesley Snipes", 60, "Florida", Role.BLACK_BELT);
 
 function wushuExpertise(student: WushuStudent) {
     switch (student.role) {
@@ -67,4 +70,7 @@ function wushuExpertise(student: WushuStudent) {
 }
 
 console.log("wushu ---");
-wushuExpertise(TexasRanger);
+wushuExpertise(JetLi);
+wushuExpertise(JasonStatham);
+wushuExpertise(KeanuReeves);
+wushuExpertise(WeslySnipes);
