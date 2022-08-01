@@ -25,7 +25,6 @@ const person = {
     age: 31
 };
 
-//  
 for (const name of basketball_team.common_lineup) {
     console.log(`name: ${name.toUpperCase()}`);
 };
@@ -43,7 +42,6 @@ legalName({first: "Jason", middle: "R", last: "Mayflower"});
 legalName({first: "Britney", last: "Wagner"});
 // compile error
 // console.log(legalName({first: "Christian", middle: "Walker)"})
-
 
 
 console.log(basketball_team);
