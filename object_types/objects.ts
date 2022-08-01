@@ -1,3 +1,22 @@
+/**
+ * 
+ * To define an object type, we simply list it's properties and their types
+ * Object types can also specify that some or all of their properties are optional.
+ *  To do this, add a '?' after the property name.
+ * 
+ * https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#object-types
+ * 
+ */
+
+function printCoordinates(object: { location?: string, lati_coord: number, long_coord: number } ) {
+    if (typeof object.location === 'undefined') {
+        console.log(` Unknown Location \n Latitude Coordinate: ${object.lati_coord} \n Longitude Coordinate: ${object.long_coord}`)
+        return;
+    }
+    console.log(`${object.location} Location \n Latitude Coordinate: ${object.lati_coord} \n Longitude Coordinate: ${object.long_coord}`)
+    return;
+}
+
 // Generic, not best practice
 const basketball_team: {
     name: string;
@@ -44,6 +63,8 @@ legalName({first: "Britney", last: "Wagner"});
 // console.log(legalName({first: "Christian", middle: "Walker)"})
 
 
+console.log(printCoordinates({ lati_coord: 48.85837, long_coord: 2.294481 }));
+console.log(printCoordinates({ location: "Eiffel Tower", lati_coord: 48.85837, long_coord: 2.294481 }));
 console.log(basketball_team);
 console.log(animal);
 console.log(person);
