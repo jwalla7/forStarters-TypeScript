@@ -1,5 +1,5 @@
-console.log("Your code goes here...");
 console.log("npm init \n npm --save-dev lite-server \n npm install \n npm start" )
+console.log("tsc --target es2015 <filename>" );
 
 function add(n1:number, n2:number) {
     return n1 + n2;

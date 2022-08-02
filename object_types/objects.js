@@ -9,41 +9,40 @@
  */
 function printCoordinates(object) {
     if (typeof object.location === 'undefined') {
-        console.log(" Unknown Location \n Latitude Coordinate: ".concat(object.lati_coord, " \n Longitude Coordinate: ").concat(object.long_coord));
+        console.log(` Unknown Location \n Latitude Coordinate: ${object.lati_coord} \n Longitude Coordinate: ${object.long_coord}`);
         return;
     }
-    console.log("".concat(object.location, " Location \n Latitude Coordinate: ").concat(object.lati_coord, " \n Longitude Coordinate: ").concat(object.long_coord));
+    console.log(`${object.location} Location \n Latitude Coordinate: ${object.lati_coord} \n Longitude Coordinate: ${object.long_coord}`);
     return;
 }
 // Generic, not best practice
-var basketball_team = {
+const basketball_team = {
     name: "Lakers",
     roster_cap: 166126381.00,
     common_lineup: ["Russell Westbrook", "Malik Monk", "Austin Reaves", "Stanley Johnson", "LeBron James"],
     position: [1, "pg"]
 };
 // Generic, not best practice
-var animal = {
+const animal = {
     name: "Lion",
     habitat: "Jungle"
 };
 // Better Practice
-var person = {
+const person = {
     name: "Jeremiah",
     age: 31
 };
-for (var _i = 0, _a = basketball_team.common_lineup; _i < _a.length; _i++) {
-    var name_1 = _a[_i];
-    console.log("name: ".concat(name_1.toUpperCase()));
+for (const name of basketball_team.common_lineup) {
+    console.log(`name: ${name.toUpperCase()}`);
 }
 ;
 // Object types as parameters
 function legalName(obj) {
     // Edge Case: If middle_name is 'undefined'
     if (obj.middle == undefined) {
-        return console.log("first name: ".concat(obj.first, ", \n middle name: N/A, \n last name: ").concat(obj.last));
+        return console.log(`first name: ${obj.first}, \n middle name: N/A, \n last name: ${obj.last}`);
     }
-    console.log("first name: ".concat(obj.first, ", \n middle name: ").concat(obj.middle, ", \n last name: ").concat(obj.last));
+    console.log(`first name: ${obj.first}, \n middle name: ${obj.middle}, \n last name: ${obj.last}`);
 }
 legalName({ first: "Jason", middle: "R", last: "Mayflower" });
 legalName({ first: "Britney", last: "Wagner" });
