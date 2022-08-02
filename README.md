@@ -1,1 +1,1 @@
-# forStarters-Typescript
+# forStarters-TypeScript
