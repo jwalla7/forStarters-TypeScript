@@ -14,3 +14,7 @@ class UserAccount {
 }
 
 const newUser: User = new UserAccount("Murphy", 1);
+
+console.log(newUser);
+
+
