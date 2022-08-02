@@ -1,3 +1,4 @@
+"use strict";
 /**
  *
  * TypeScript's type system allows you to build new types out of existing ones using a variety of operators.
@@ -5,7 +6,7 @@
  *
  */
 function printId(id) {
-    console.log("Your ID is: ".concat(id));
+    console.log(`Your ID is: ${id}`);
 }
 function combine(input_1, input_2) {
     /**
@@ -15,14 +16,14 @@ function combine(input_1, input_2) {
      * Narrowing: One way to solve this is by being more specific, an 'if' statement will suffice.
      *
      * */
-    var result;
+    let result;
     if (typeof input_1 === 'number' && typeof input_2 === 'number') {
         result = input_1 + input_2;
         console.log(result);
     }
     if (typeof input_1 === 'string' && typeof input_2 === 'string') {
-        var result_1 = "".concat(input_1.toString().toUpperCase(), " ").concat(input_2.toString().toUpperCase());
-        console.log(result_1);
+        let result = `${input_1.toString().toUpperCase()} ${input_2.toString().toUpperCase()}`;
+        console.log(result);
     }
     return result;
 }

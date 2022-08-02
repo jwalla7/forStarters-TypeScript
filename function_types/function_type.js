@@ -1,3 +1,4 @@
+"use strict";
 /**
  *
  * Parameter Type Annotations: You can add type annotations after each parameter to declare what 'type'

@@ -1,5 +1,6 @@
-var instruments = ["drums", "piano"];
-var numbers;
+"use strict";
+const instruments = ["drums", "piano"];
+let numbers;
 numbers = [1];
-var anything;
+let anything;
 anything = [1, "string"];

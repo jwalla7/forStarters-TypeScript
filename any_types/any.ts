@@ -1,6 +1,8 @@
 /**
  * 
- * Used whenever you don't want a particular value to cause typechecking errors.
+ * Type 'any' is the most flexible type in TypeScript.
+ * Use whenever you don't want a particular value to cause typechecking errors.
+ * Type 'any' can be assignable,
  *  When you don't specify a type, and TypeScript can't infer it from context, the compiler will
  *  typically default to 'any'.
  * 

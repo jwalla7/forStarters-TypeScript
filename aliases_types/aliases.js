@@ -1,3 +1,4 @@
+"use strict";
 /**
  *
  * A type alias is a name for any type, or union of types.
@@ -6,5 +7,3 @@
  * https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases
  *
  */
-function playerPointsPerGame(shot_type, recordShot) {
-}
