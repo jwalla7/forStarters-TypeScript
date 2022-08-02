@@ -1,3 +1,4 @@
+"use strict";
 /**
  *
  *  Are types that have specific values
@@ -36,7 +37,7 @@ function compare(a, b) {
     if (result === 1)
         console.log(`${a} is not equal to ${b}`);
     if (result === -1)
-        console.log(`${a} is not equal to ${b}`);
+        console.log(`${a} is not eq ual to ${b}`);
     return result;
 }
 function configure(x) {

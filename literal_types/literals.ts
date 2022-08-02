@@ -34,13 +34,13 @@ function printText(s: string, alignment: "left" | "right" | "center") {
 }
 // Numeric literal types
 function compare(a: string, b: string): -1 | 0 | 1 {
-    let result;
+    let result: -1 | 0 | 1;
     
     result = a === b ? 0 : a > b ? 1 : -1;
     if (result === 0) console.log(`${a} is equal to ${b}`);
     if (result === 1) console.log(`${a} is not equal to ${b}`);
-    if (result === -1) console.log(`${a} is not equal to ${b}`);
-    
+    if (result === -1) console.log(`${a} is not eq ual to ${b}`);
+
     return result;
 }
 // Combining with Non-literal types

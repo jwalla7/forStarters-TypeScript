@@ -1,3 +1,4 @@
+"use strict";
 /**
  *
  * To define an object type, we simply list it's properties and their types
