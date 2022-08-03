@@ -1,0 +1,1 @@
+{"version":3,"file":"class_interface.js","sourceRoot":"","sources":["../../src/interface_types/class_interface.ts"],"names":[],"mappings":";AAKA,MAAM,WAAW;IAIb,YAAY,IAAY,EAAE,EAAU;QAChC,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;QACjB,IAAI,CAAC,EAAE,GAAG,EAAE,CAAC;IACjB,CAAC;CACJ;AAED,MAAM,OAAO,GAAS,IAAI,WAAW,CAAC,QAAQ,EAAE,CAAC,CAAC,CAAC;AAEnD,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAC"}
