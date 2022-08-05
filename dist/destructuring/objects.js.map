@@ -1,0 +1,1 @@
+{"version":3,"file":"objects.js","sourceRoot":"","sources":["../../src/destructuring/objects.ts"],"names":[],"mappings":";AAAA;;;;;GAKG;AAEH,MAAM,UAAU,GAAG;IACf,SAAS,EAAE,OAAO;IAClB,OAAO,EAAE,QAAQ;CACpB,CAAA;AAED,MAAM,EAAE,SAAS,EAAE,OAAO,EAAE,WAAW,EAAC,GAAG,UAAU,CAAC;AACtD,OAAO,CAAC,GAAG,CAAC,SAAS,EAAE,WAAW,EAAE,UAAU,CAAC,CAAC"}
