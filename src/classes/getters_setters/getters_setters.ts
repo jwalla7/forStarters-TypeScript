@@ -19,7 +19,7 @@ class Customer {
     set updateCustomerBalance (updateBalance: number[]) {
         let newBalance = updateBalance.reduce<number>((preVal, curVal) => { return preVal + curVal }, 0);
         // let newBalance = 0
-        // updateBalance.forEach((number) => { newBalance += element; });
+        // updateBalance.forEach((number) => { newBalance += number; });
         
         this.customerBalance += newBalance;
     }
