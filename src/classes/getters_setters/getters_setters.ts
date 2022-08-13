@@ -27,7 +27,6 @@ class Customer {
     get accessCustomerId (): number { return this.customerId; }
     get accessCustomerName (): string { return this.customerName ;}
     get accessCustomerBalance (): number { return this.customerBalance; }
-
 }
 
 const customer_1: Customer = new Customer("John", 23);
@@ -37,7 +36,7 @@ console.log(customer_1.accessCustomerId); // 250
 console.log(customer_1.accessCustomerName) // John
 console.log(customer_1.accessCustomerBalance); // 23
 customer_1.updateCustomerBalance = [10, 5, 2, 1, 0.33];
-console.log(customer_1.accessCustomerBalance); // 33
+console.log(customer_1.accessCustomerBalance); // 41.33
 
 console.log(customer_2.accessCustomerId); // 251
 
