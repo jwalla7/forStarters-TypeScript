@@ -1,6 +1,6 @@
 "use strict";
 class Animal {
-    // Shorthand Initialization, create class property/variable instances at the constructor level.
+    // Shorthand Initialization, creates class property/variable instances at the constructor level.
     constructor(species, name) {
         this.species = species;
         this.name = name;

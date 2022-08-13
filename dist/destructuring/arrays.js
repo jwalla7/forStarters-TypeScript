@@ -13,7 +13,7 @@ const bobMarleyPlaylist = [
     'Roots, Rock, Reggae'
 ];
 const [song1, song2, ...remainingSongs] = bobMarleyPlaylist;
-console.log(song1);
-console.log(song2);
-console.log(remainingSongs);
+console.log(song1); // "Jamming"
+console.log(song2); // "Is This Love"
+console.log(remainingSongs); // ["Three Little Birds". "Get Up, Stand Up", "Satisfy My Soul", "Roots, Rock, Reggae"]
 //# sourceMappingURL=arrays.js.map
