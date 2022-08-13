@@ -41,3 +41,4 @@ console.log(customer_1.accessCustomerBalance); // 33
 
 console.log(customer_2.accessCustomerId); // 251
 
+
