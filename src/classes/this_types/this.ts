@@ -2,6 +2,8 @@
  * 
  * 'this' refers dynamically to the type of the current class.
  *  
+ * https://www.typescriptlang.org/docs/handbook/2/classes.html#this-types
+ *
  */
 
 class Box {
